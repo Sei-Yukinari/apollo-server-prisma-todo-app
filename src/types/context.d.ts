@@ -1,7 +1,7 @@
 export type Context = {
-    user?: {
-        name: string;
-        email: string;
-        token: string;
-    };
+  user?: {
+    name: string;
+    email: string;
+    id: string;
+  };
 };
